@@ -43,10 +43,6 @@ public class ByteAPI {
     
     // MARK: Private
     
-    private func dataTask(path: String, parameters: [String: String]) -> NSURLSessionDataTask {
-        return POST(path, parameters: parameters, completionHandler: nil)
-    }
-    
     private func POST(path: String, parameters: [String: String], completionHandler: DefaultResponseCompletionHandler?) -> NSURLSessionDataTask {
         let baseURL: NSURL = NSURL(string: "https://api.byte.co/v1/")!
         
