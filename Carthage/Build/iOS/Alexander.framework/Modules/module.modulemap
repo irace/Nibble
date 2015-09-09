@@ -1,0 +1,10 @@
+framework module Alexander {
+  umbrella header "Alexander.h"
+
+  export *
+  module * { export * }
+}
+
+module Alexander.Swift {
+    header "Alexander-Swift.h"
+}
