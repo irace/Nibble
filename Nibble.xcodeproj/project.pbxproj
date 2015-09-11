@@ -14,6 +14,7 @@
 		93A636C51B9FC7D700E953EE /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A636C41B9FC7D700E953EE /* Response.swift */; };
 		93A636D61B9FCFA500E953EE /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93A636D51B9FCFA500E953EE /* Tests.swift */; };
 		93A636D71B9FCFA500E953EE /* Nibble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93A636A01B9FBF5200E953EE /* Nibble.framework */; };
+		93CF3B411BA12480003A5455 /* BFF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CF3B401BA12480003A5455 /* BFF.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +38,7 @@
 		93A636D11B9FCFA500E953EE /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93A636D41B9FCFA500E953EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A636D51B9FCFA500E953EE /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		93CF3B401BA12480003A5455 /* BFF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BFF.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				93A636BC1B9FBF6300E953EE /* ByteAPI.swift */,
 				93A636C11B9FC53300E953EE /* Models */,
 				93A636A31B9FBF5200E953EE /* Supporting Files */,
+				93CF3B401BA12480003A5455 /* BFF.swift */,
 			);
 			path = Nibble;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			files = (
 				93A636C31B9FC56900E953EE /* User.swift in Sources */,
 				93A636C51B9FC7D700E953EE /* Response.swift in Sources */,
+				93CF3B411BA12480003A5455 /* BFF.swift in Sources */,
 				93A636BD1B9FBF6300E953EE /* ByteAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -466,6 +470,7 @@
 				93A636B81B9FBF5300E953EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93A636DA1B9FCFA500E953EE /* Build configuration list for PBXNativeTarget "Tests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +479,7 @@
 				93A636DC1B9FCFA500E953EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
